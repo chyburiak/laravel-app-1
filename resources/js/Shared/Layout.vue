@@ -21,6 +21,10 @@ export default {
         </header>
     </section>
 
+    <section class="container mx-auto flex justify-center py-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk?si=2XMytbS6ah3BYjP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
     <section class="p-6">
         <div class="container mx-auto">
             <slot />
