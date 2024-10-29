@@ -3,7 +3,7 @@ import NavLink from "@/Shared/NavLink.vue";
 </script>
 
 <template>
-    <nav class="border-b p-4">
+    <nav class="p-4">
         <ul class="flex gap-4">
             <li>
                 <NavLink href="/" :active="$page.component === 'Home'">
